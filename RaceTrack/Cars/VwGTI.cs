@@ -17,6 +17,13 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} engine starts and the whole world ceases to exist.  There is no hope, only the roar of German engineering.");
         }
+
+        public override void Brake()
+        {
+            Console.WriteLine($"The {Name} has super fresh, performance breaks and stops flawlessly.  The screech you hear is both intentional and for dramatic effect'");
+            base.Brake();
+        }
+
         public override void StopEngine()
         {
             Console.WriteLine($"The {Name} screeches to a hault after what was likely another successful victory for German engineering");
