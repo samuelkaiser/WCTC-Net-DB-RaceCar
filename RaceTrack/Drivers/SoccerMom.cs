@@ -15,6 +15,8 @@ namespace RaceTrack.RaceTrack.Drivers
             SkillLevel = 6;
         }
 
+        
+
         public override void Drive()
         {
             Car.Accelerate(SkillLevel);
